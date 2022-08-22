@@ -1,0 +1,10 @@
+contador= 0
+while contador < 11 :
+  asteriscos = 1
+  while asteriscos < contador+1 :
+   print("+", end =" ")
+   #print (contador)
+   asteriscos+= 1
+  print ()
+  contador += 1
+  #Construye una piramede con base de 11 con un while
